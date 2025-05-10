@@ -1,0 +1,126 @@
+/*ステップ４*/
+@media screen and (max-width: 767px) {
+  #nav-pc{
+    display: none;
+  }
+
+  #menu-sp{
+    float: right;
+    padding: 0;
+    background-color:#ce933e ;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    z-index: 100;
+  }
+
+  #nav-sp ul{
+    padding-left: 0;
+  }
+
+  #nav-sp li{
+    list-style: none;
+  }
+
+  #close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  #logo-sp{
+    margin: 80px 0px 30px 20px;
+  }
+
+  #nav-sp a{
+    display: block;
+  }
+
+  
+
+}
+
+
+
+
+
+
+*====================
+18  スマートフォン用のスタイル
+19 =====================*/
+20 @media screen and (max-width: 767px) {
+21   /* PC用ナビゲーション非表示 */
+22   #nav-pc {
+23     display: none;
+24   }
+25 
+26   /* ハンバーガーメニュー */
+27   #menu-sp {
+28     display: block;
+29     background-color: transparent;
+30     float: right;
+31     padding: 0;
+32     border: none;
+33   }
+34 
+35   /* スマホ用ナビゲーションの表示切替*/
+36   /* 初期状態、レイアウトと非表示設定 */
+37   #nav-sp {
+38     background-color: #2710d5;
+39     position: fixed;
+40     left: 0;
+41     top: 0;
+42     height: 100%;
+43     width: 100%;
+44     display: none;
+45     z-index: 100;
+46   }
+47   }
+
+/* ×ボタン */
+35   #close {
+  36     position: absolute;
+  37     top: 20px;
+  38     right: 20px;
+  39     background-color: transparent;
+  40     border: none;
+  41   }
+  42 
+  43   #nav-sp nav ul {
+  44     padding-left: 0;
+  45   }
+  46 
+  47   #nav-sp nav li {
+  48     list-style: none;
+  49   }
+  50 
+  51   /* ナビゲーションメニュー用ロゴ */
+  52   #logo-sp {
+  53     margin: 80px 0 30px 20px;
+  54   } 
+  55}
+
+
+  /* ナビゲーションのリンクの装飾設定 */
+57  #nav-sp nav a {
+  58    display: block;
+  59    color: #ffffff;
+  60  }
+  61 
+  62  #nav-sp nav a:hover {
+  63     text-decoration: underline;
+  64   }
+  65 
+  66   #nav-sp .menu {
+  67     text-decoration: none;
+  68     margin: 0 20px 0 20px;
+  69     height: 44px;
+  70     font-size: 16px;
+  71     background-image: url("images/arrow.png");
+  72     background-repeat: no-repeat;
+  73     background-position: right top;
+  74   }
+  75}

@@ -16,6 +16,15 @@ p {
 PC用のスタイル 
 =================*/
 @media screen and (min-width: 768px) {
+
+  /* SP用ナビゲーション非表示 */
+  #menu-sp {
+    display: none;
+  }
+  #nav-sp {
+    display: none;
+  }
+
   /* 横幅設定 */
   body {
     max-width: 1080px;
@@ -66,6 +75,18 @@ PC用のスタイル
  =====================*/
 
  @media screen and (max-width: 767px) {
+
+   /* ハンバーガーメニュー */
+  #menu-sp{
+    float: right;
+    padding: 0;
+  }
+
+  /*スマホ用ナビゲーション*/
+  #nav-sp{
+    left: 0;
+    top: 0;
+    display: none;
    
   body{
     min-width: 375px;

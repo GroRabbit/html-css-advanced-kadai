@@ -84,7 +84,7 @@ PC用のスタイル
 
   /*スマホ用ナビゲーション*/
   #nav-sp{
-    
+  
     top: 0;
     display: none;
    
@@ -107,17 +107,17 @@ PC用のスタイル
   /*スマホ用ナビゲーション*/
   #nav-sp{
     background-color:#ce933e
-    position: absolute;
+    position:absolute;
     left: 0;
     top: 0;
     height: 100%;
-    width: 100%
+    width: 100%;
     display: none;
     z-index: 100;
   }
 
   #nav-sp ul{
-    padding-left:0
+    padding-left:0;
   }
 
   #nav-sp li{
@@ -141,16 +141,16 @@ PC用のスタイル
    }
 
    #nav-spa:link{
-    color:#ffffff
+    color:#ffffff;
    }
 
    #nav-spa:visited{
-    color:#ffffff
+    color:#ffffff;
   }
 
   #nav-spa:hover{
-    color:#ffffff
-    text-decoration:underline
+    color:#ffffff;
+    text-decoration:underline;
   }
 
   #nav-spa:active{
@@ -164,8 +164,8 @@ PC用のスタイル
     height: 44px;
     font-size: 16px;
     background-image: url("images/arrow.png") ;
-    background-repeat:no-repeat
-    background-position:right top
+    background-repeat:no-repeat;
+    background-position:right top;
   }
 
   #nav-sp{
